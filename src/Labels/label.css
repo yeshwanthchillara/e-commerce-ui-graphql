@@ -1,0 +1,209 @@
+body {
+  /* background-image: url("../assets/AuthBG.jpg"); */
+  background-color: #252525;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+}
+
+.header_styles {
+  background-color: rgb(94, 94, 94);
+  height: 50px;
+  color: white;
+}
+
+.signup_form {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.542);
+  z-index: 5;
+}
+
+.signup_form_Sub {
+  width: 40vw;
+  background-color: white;
+  padding: 30px;
+  /* margin: 10px; */
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+}
+
+.center {
+  border: 5px solid;
+  text-align: center;
+}
+
+/* Product Selling page styles */
+
+.productSellingMain {
+  width: 100vw;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.829);
+  /* margin: 20px; */
+  /* border-radius: 10px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.image-container {
+  width: 300px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.forgotSuccess {
+  background-color: rgba(0, 255, 0, 0.3);
+  color: Black;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.on {
+  color: #000;
+}
+
+.off {
+  color: #ccc;
+}
+
+.btn-outline-primary {
+  background-color: #fff !important;
+  color: #4bb8a9 !important;
+  border: 1.3px solid #4bb8a9;
+  font-size: 12px;
+  border-radius: 0.4em !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #4bb8a9 !important;
+  color: #fff !important;
+  border: 1.3px solid #4bb8a9;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #42A5F5 !important;
+}
+
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: #455A64;
+  padding-left: 0px;
+  margin-top: 30px
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 13px;
+  width: 33.33%;
+  float: left;
+  position: relative;
+  font-weight: 400;
+  color: #455A64 !important;
+
+}
+
+#progressbar #step1:before {
+  content: "1";
+  color: #fff;
+  width: 29px;
+  margin-left: 15px !important;
+  padding-left: 11px !important;
+}
+
+
+#progressbar #step2:before {
+  content: "2";
+  color: #fff;
+  width: 29px;
+
+}
+
+#progressbar #step3:before {
+  content: "3";
+  color: #fff;
+  width: 29px;
+  margin-right: 15px !important;
+  padding-right: 11px !important;
+}
+
+#progressbar li:before {
+  line-height: 29px;
+  display: block;
+  font-size: 12px;
+  background: #455A64;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#progressbar li:after {
+  content: '';
+  width: 121%;
+  height: 2px;
+  background: #455A64;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 15px;
+  z-index: -1;
+}
+
+#progressbar li:nth-child(2):after {
+  left: 50%;
+}
+
+#progressbar li:nth-child(1):after {
+  left: 25%;
+  width: 121%;
+}
+
+#progressbar li:nth-child(3):after {
+  left: 25% !important;
+  width: 50% !important;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #4bb8a9;
+}
+
+.card {
+  background-color: #fff;
+  z-index: 0;
+}

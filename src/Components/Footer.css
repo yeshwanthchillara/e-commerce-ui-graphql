@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    top: calc(100vh - 14.5vh);
+    font-size: 0.8rem;
+    padding: 1rem;
+}

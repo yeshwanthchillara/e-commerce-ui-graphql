@@ -1,0 +1,20 @@
+/* Width */
+::-webkit-scrollbar {
+    width: 4px; /* You can adjust this value */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #3f3f3f; /* You can adjust this color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000000; /* You can adjust this color */
+    border-radius: 6px; /* You can adjust the border radius */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8a8a8a;
+}

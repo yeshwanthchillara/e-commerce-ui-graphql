@@ -1,0 +1,49 @@
+.user-dropdown .dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#offcanvasNavbarDropdown-expand-lg {
+    color: #FFF;
+    justify-content: center;
+}
+
+.mobile-view {
+    display: grid;
+    padding: 1rem;
+    color: #fff;
+    gap: 1rem
+}
+
+.nav-bar-item {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+} 
+
+.profile-btn {
+    background-color: beige;
+    color: #000;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.custom-tooltip {
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    top: -355px;
+    left: -125px;
+    width: 70vw;
+}
+
+.search-icon-toggle {
+    position: absolute;
+    right: 50px;
+}
